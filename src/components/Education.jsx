@@ -7,7 +7,7 @@ const educationData = [
     degree: 'Specialized Technician Diploma (DTS)',
     school: 'OFPPT (ISGI)',
     program: 'Digital Development: Web Full Stack',
-    highlight: 'GPA: 17.83 / 20 — Ranked Top of Class (Valedictorian)',
+    highlight: 'GPA: 17.83 / 20 — Ranked Top of Class in the 1st year ',
     icon: '🏆',
     color: '#fbbf24',
   },
@@ -69,7 +69,7 @@ export default function Education() {
                   {item.highlight && (
                     <div className="education__item-highlight">
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                       </svg>
                       <span>{item.highlight}</span>
                     </div>
@@ -92,7 +92,7 @@ export default function Education() {
                   style={{ animationDelay: `${0.4 + idx * 0.08}s` }}
                 >
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"/>
+                    <polyline points="20 6 9 17 4 12" />
                   </svg>
                   <span>{cert}</span>
                 </div>
